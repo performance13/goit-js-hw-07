@@ -1,3 +1,4 @@
-'use strict';
+//'use strict';
 
-console.log(document);
+const categoriesRef = document.querySelectorAll('.item');
+console.log('В списке ${categoriesRef.length} категории');
